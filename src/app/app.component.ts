@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+// Decorator
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,3 +9,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'movieshopspa';
 }
+
+// main.ts => appModule => AppComponent => View
+// HomePagedView => app-root

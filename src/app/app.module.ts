@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// decorators -> attributes
+// [HttpPost], additional functionality
+// To use AppComponent you have to declare it first
+
 @NgModule({
   declarations: [
     AppComponent
