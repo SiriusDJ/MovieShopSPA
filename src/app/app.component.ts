@@ -10,5 +10,7 @@ export class AppComponent {
   title = 'movieshopspa';
 }
 
+// Modules => components inside those modules,
+
 // main.ts => appModule => AppComponent => View
 // HomePagedView => app-root

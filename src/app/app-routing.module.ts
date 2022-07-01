@@ -8,3 +8,5 @@ const routes: Routes = [];
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+// Create modules based on features of the application
