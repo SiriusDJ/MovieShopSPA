@@ -1,4 +1,12 @@
-<h1>
-  Movie Shop SPA
-</h1>
-<router-outlet></router-outlet>
+<div>
+    <app-header></app-header>
+
+
+    <!-- based on the route you configure, the component and its view will be rendered here -->
+    <!-- it is configured in app-routing.module.ts -->
+    <div class="container-fluid mt-1">
+        <router-outlet></router-outlet>
+    </div>
+        <app-footer></app-footer>
+   
+</div>

@@ -1,11 +1,22 @@
+import { UserComponent } from './user.component';
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { FavoritesComponent } from './favorites/favorites.component';
 import { UserRoutingModule } from './user-routing.module';
+import { PurchasesComponent } from './purchases/purchases.component';
+import { ReviewsComponent } from './reviews/reviews.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PurchasesComponent,
+    FavoritesComponent,
+    ReviewsComponent,
+    EditProfileComponent,
+    UserComponent
+  ],
   imports: [
     CommonModule,
     UserRoutingModule
