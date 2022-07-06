@@ -19,7 +19,8 @@ export class HomeComponent implements OnInit {
     // it is not gonna be executed until you subscribe to an observable
     this.movieService.getTopGrossingMovies().subscribe( m => {
       this.movies = m;
-      console.log(this.movies)
+      console.log
+      (this.movies)
     });
   }
 
