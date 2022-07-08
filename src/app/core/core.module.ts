@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -11,7 +12,8 @@ import { HeaderComponent } from './layout/header/header.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     // if you wanna use a component outside its own module in another module, then that module should export that component
