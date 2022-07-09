@@ -1,4 +1,4 @@
-import { MovieCard } from 'src/app/shared/model/MovieCard';
+import { MovieCard } from 'src/app/shared/model/movie-card';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
